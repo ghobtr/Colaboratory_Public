@@ -20,7 +20,7 @@ stock_list = ["AKBNK.IS"]
 epochs_number = 100
 batch_size_number = 1
 directory_path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-modeljson = directory_path+'\model_p1n10ML_3.json'
+modeljson = directory_path+'/model_p1n10ML_3.json'
 
 for ticker in stock_list:
 
