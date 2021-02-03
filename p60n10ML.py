@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 
 
 # Global vars
-stock_list = ["AKBNK.IS"]
+stock_list = ["VESTL.IS","ANHYT.IS","ARCLK.IS","AEFES.IS","TKFEN.IS","SISE.IS","TUPRS.IS","ULKER.IS","KCHOL.IS","SAHOL.IS","AKBNK.IS","VAKBN.IS","THYAO.IS"]
 for ticker in stock_list:
 
     split_percent = 0.95
@@ -146,4 +146,4 @@ for ticker in stock_list:
     )
 
     fig2 = go.Figure(data=[trace1, trace2, trace3], layout=layout)
-    fig2.write_html(ticker + 'p60n10.html', auto_open=False)
+    fig2.write_html(ticker + '_p60n10_model1.html', auto_open=False)

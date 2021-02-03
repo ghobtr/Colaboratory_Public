@@ -16,7 +16,8 @@ from sklearn import metrics
 
 
 # Global vars
-stock_list = ["AKBNK.IS"]
+
+stock_list = ["VESTL.IS","ANHYT.IS","ARCLK.IS","AEFES.IS","TKFEN.IS","SISE.IS","TUPRS.IS","ULKER.IS","KCHOL.IS","SAHOL.IS","AKBNK.IS","VAKBN.IS","THYAO.IS"]
 epochs_number = 100
 batch_size_number = 32
 directory_path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -160,4 +161,4 @@ for ticker in stock_list:
     )
 
     fig2 = go.Figure(data=[trace1, trace2, trace3], layout=layout)
-    fig2.write_html(ticker + 'p90n20ML.html', auto_open=False)
+    fig2.write_html(ticker + '_p90n20ML_model1.html', auto_open=False)
