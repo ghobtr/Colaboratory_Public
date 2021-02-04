@@ -18,6 +18,7 @@ from sklearn import metrics
 # Global vars
 
 stock_list = ["VESTL.IS","ANHYT.IS","ARCLK.IS","AEFES.IS","TKFEN.IS","SISE.IS","TUPRS.IS","ULKER.IS","KCHOL.IS","SAHOL.IS","AKBNK.IS","VAKBN.IS","THYAO.IS"]
+stock_list = ["AKBNK.IS","THYAO.IS"]
 epochs_number = 100
 batch_size_number = 32
 directory_path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))

@@ -9,6 +9,7 @@ import plotly.graph_objects as go
 
 # Global vars
 stock_list = ["VESTL.IS","ANHYT.IS","ARCLK.IS","AEFES.IS","TKFEN.IS","SISE.IS","TUPRS.IS","ULKER.IS","KCHOL.IS","SAHOL.IS","AKBNK.IS","VAKBN.IS","THYAO.IS"]
+stock_list = ["AKBNK.IS","THYAO.IS"]
 for ticker in stock_list:
 
     split_percent = 0.95
