@@ -153,4 +153,4 @@ for ticker in stock_list:
     )
 
     fig2 = go.Figure(data=[trace1, trace2, trace3], layout=layout)
-    fig2.write_html(ticker + 'p1n10.html', auto_open=False)
+    fig2.write_html(ticker + '_p1n10ML_model1.html', auto_open=False)
