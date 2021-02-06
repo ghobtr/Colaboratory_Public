@@ -29,7 +29,7 @@ for ticker in stock_list:
 
     def get_price():
         df_stock = get_data(ticker, start_date=None, end_date=None, index_as_date=False, interval="1d")
-        # df_stock = get_data(ticker, start_date=None, end_date='01/18/2021', index_as_date=False, interval="1d")
+        df_stock = get_data(ticker, start_date=None, end_date='01/22/2021', index_as_date=False, interval="1d")
         df_stock = df_stock.dropna()
         return df_stock
 
