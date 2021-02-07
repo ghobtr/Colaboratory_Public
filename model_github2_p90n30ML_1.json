@@ -9,7 +9,7 @@
                     "batch_input_shape": [
                         null,
                         90,
-                        1
+                        84
                     ],
                     "dtype": "float32",
                     "sparse": false,
