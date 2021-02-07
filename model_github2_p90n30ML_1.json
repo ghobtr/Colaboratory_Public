@@ -1,14 +1,14 @@
 {
     "class_name": "Sequential",
     "config": {
-        "name": "model_p1n10ML_3",
+        "name": "model_github2_p90n30ML_1",
         "layers": [
             {
                 "class_name": "InputLayer",
                 "config": {
                     "batch_input_shape": [
                         null,
-                        1,
+                        90,
                         1
                     ],
                     "dtype": "float32",
