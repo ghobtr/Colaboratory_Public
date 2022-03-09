@@ -91,7 +91,7 @@
                     "stateful": false,
                     "unroll": false,
                     "time_major": false,
-                    "units": 50,
+                    "units": 100,
                     "activation": "tanh",
                     "recurrent_activation": "sigmoid",
                     "use_bias": true,
